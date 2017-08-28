@@ -105,7 +105,7 @@ self:
 # ===========================================
 
 # Search
-search: true
+search: false
 
 greetings:
   morning: 当我们探索时，就要发现到真理
