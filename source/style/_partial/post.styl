@@ -52,9 +52,10 @@ $header-sign = hexo-config("header_sign")
             padding: 5px 0
             font-weight 200
             font-size (yard*3.5)
+            color: $color-main
             a
                 text-decoration: none
-                color: #000
+                color: $color-main
         +mobile()
             .post-time
                 font-size 12px
@@ -84,8 +85,9 @@ $header-sign = hexo-config("header_sign")
         line-height line-height
         font-weight 300
     code
-        border 1px solid $color-border
+        border 0px solid $color-border
         background-color $color-back
+        color $color-main
         padding 0 (yard/2)
         margin 0 (yard/2)
         font-size 14px
@@ -95,8 +97,12 @@ $header-sign = hexo-config("header_sign")
     i
         font-weight 100
         font-family $font-family-use
+    li
+        line-height 1.5em
     img
-        width: 500px
+        display block
+        max-width 100%
+        margin 1em auto
     +mobile()
         font-size 14px
 .content-link
