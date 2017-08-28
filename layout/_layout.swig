@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ config.language }}">
 <head>
+    <meta name="baidu-site-verification" content="AsDpnKjG4B"/>
     <title>{% block title %}{% endblock %}</title>
     {% include "_partial/head.swig" %}
 </head>
