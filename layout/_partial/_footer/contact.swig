@@ -6,6 +6,7 @@
     {% set facebook = 'https://www.facebook.com/' %}
     {% set linkedin = 'https://www.linkedin.com/in/' %}
     {% set ins = 'https://www.instagram.com/' %}
+    {% set mail = 'mailto:' %}
     {% for name, path in theme.sub %}
         {% if name == 'github' %}
             <a href="{{github + path }}" class="iconfont icon-{{ name }}" title="{{ name }}"></a>
@@ -27,6 +28,9 @@
         {% endif %}
         {% if name == 'instagram' %}
             <a href="{{ins + path }}" class="iconfont icon-ins" title="{{ name }}"></a>
+        {% endif %}
+        {% if name == 'mail' %}
+            <a href="{{mail + path }}" target="_blank" class="iconfont icon-mail" title="{{ name }}"></a>
         {% endif %}
     {% endfor %}
 </div>
