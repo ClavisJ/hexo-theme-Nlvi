@@ -6,9 +6,11 @@
 menu:
   article: /
   archives: /archives
-  tags: /tags
-  about: /about
+  read: /read
+  # tags: /tags
+  # about: /about
   # RSS: /atom.xml
+  
 
 # favicon
 favicon:
@@ -52,6 +54,8 @@ comments:
     repo:
     client_id:
     client_secret:
+
+read: <h3>2017</h3><ul><li>献给阿尔吉侬的花束</li><li>随遇而安</li><li>我敢在你怀里孤独</li><li>Objective-C 高级编程：iOS与OS X多线程和内存管理</li><li>阿弥陀佛么么哒</li></ul><h3>2016</h3><ul><li>偷影子的人</li><li>无声告白</li><li>牧羊少年奇幻之旅</li><li>脑洞师</li><li>欢乐颂</li><li>The Swift Programming Language</li><li>虚无的十字架</li><li>解忧杂货铺</li><li>三体</li><li>看见</li></ul><h3>2015</h3><ul><li>Producter</li><li>iOS 开发进阶</li></ul>
 
 # sub //Please just fill out ID.
 sub:
